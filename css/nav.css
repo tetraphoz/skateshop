@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+nav{
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+nav img{
+    height: 4rem;
+    padding: 0.6rem;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+nav li .logo{
+}
+nav li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 0 0 1rem;
+    font-weight: 800;
+    justify-content: space-between;
+}
+nav li .opciones{
+}
+nav a, nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    transition: 0.5s;
+    color: salmon;
+}
+
+footer {
+    background-color: black;
+    height: 6rem;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer li {
+    font-family: 'Raleway';
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    list-style: none;
+    font-weight: bold;
+    color: #F1F2EB;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer a, nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+footer ul li a:hover {
+    transition: 0.5s;
+    color: salmon;
+}

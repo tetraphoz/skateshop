@@ -1,0 +1,22 @@
+@import "nav.css";
+
+main {
+  padding: 3rem 0 0 1rem;
+  color: white;
+  background-image: url('img/img\ principal/shawn-henry-eK_aInAXydw-unsplash.jpg');
+}
+
+h1, h2 {
+    font-family: 'Raleway';
+    font-optical-sizing: auto;
+}
+h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: lightskyblue;
+}
+h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: black;
+}
