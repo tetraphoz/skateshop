@@ -1,22 +1,28 @@
 @import "nav.css";
 
 main {
+  display: flex;
+  flex-flow: column;
   padding: 3rem 0 0 1rem;
-  color: white;
-  background-image: url('img/img\ principal/shawn-henry-eK_aInAXydw-unsplash.jpg');
+  background-image: url(../img/principal/bannerPrincipal.png);
+  background-size:cover;
+  background-color: black;
+  object-fit: contain;
 }
 
 h1, h2 {
-    font-family: 'Raleway';
-    font-optical-sizing: auto;
+  font-family: 'Raleway';
+  font-optical-sizing: auto;
 }
 h1 {
-    font-size: 2.4rem;
-    font-weight: 600;
-    color: lightskyblue;
+  font-size: 2.4rem;
+  color: lightskyblue;
 }
 h2 {
-    font-size: 2.25rem;
-    font-weight: 400;
-    color: black;
+  font-size: 2.25rem;
+  color: white;
+}
+
+.banner{
+  justify-content: flex-end;
 }
