@@ -1,11 +1,8 @@
 #+title: Comodín Skateshop
 
 * Lista de pendientes
-** TODO Terminar la pagina principal
+** [ ] Terminar la pagina principal
 Necesitamos que quede bien para reutilizar el código en las demás paginas.
-** TODO Hacer una version del logo para el favicon
-** TODO Pasar los iconos del header en ilustrador a png
-** TODO Exportar el logo claro de ilustrador
 * Recursos útiles para enteder que pedo :b
 - https://git-scm.com/book/en/v2
   Para poder moverle a git
