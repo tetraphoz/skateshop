@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-html, body {
+* {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -14,33 +15,10 @@ body{
     overflow: hidden;
 }
 
-nav{
-    height: 6vh;
-    width: 100%;
-    background-color: white;
-}
-
-footer {
-    background-color: black;
-    height: 8vh;
-    width: 100%;
-}
-
-footer ul, nav ul{
+header, footer{
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    width: 100%;
+    justify-content: space-between;
     align-items: center;
-    /* justify-content: space-between; */
-}
-footer li, nav li{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5vh;
-    /* padding: 0 0 0 1vh; */
-    font-weight: 800;
 }
 
 a, a:visited {
@@ -51,8 +29,23 @@ a:hover {
     transition: 0.3s;
     color: salmon;
 }
-footer a, footer a:visited{
-    color: white;
+
+.logo {
+    height: 6vh;
+    padding: 0.7vh;
+}
+
+.icon {
+    height: 4vh;
+    padding: 0.3vh;
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vh;
+    font-weight: 900;
+    display: inline-block;
+    padding: 1vh 1vh;
 }
 
 main{
@@ -60,14 +53,20 @@ main{
     height: 100%;
 }
 
-.logo {
-    height: 5vh;
-    padding: 0.7vh;
+footer{
+    background-color: black;
+    height: 9vh;
+}
+footer li{
+    margin: 2vh;
+}
+footer li:first-child{
+    margin-left: 4vh;
 }
 footer .logo {
-    height: 6vh;
+    height: 8vh;
+    padding: 0.7vh;
 }
-.icon {
-    height: 3vh;
-    padding: 0.3vh;
+footer a, footer a:visited{
+    color: white;
 }
