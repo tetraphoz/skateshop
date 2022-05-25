@@ -1,0 +1,77 @@
+@import "nav.css";
+
+body{
+    overflow: scroll;
+}
+
+main {
+    background-image: url("../img/fondos/cartas-cara.jpg");
+    background-size:cover;
+    background-color: black;
+    object-fit: contain;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+*{
+    font-family: 'Raleway';
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.elemento img {
+    height: 20rem;
+    border-radius: 8px;
+}
+
+.elemento{
+    display: flex;
+    flex-flow: column;
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.precio{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: black;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 3rem;
+    color: white;
+    text-shadow: black 10px 10px 10px;
+}
+
+a[href="baleros.html"]{
+    color: salmon;
+}
+
+button{
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
