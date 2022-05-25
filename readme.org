@@ -1,9 +1,15 @@
 #+title: Comodín Skateshop
 
 * Lista de pendientes
-** [ ] Terminar la pagina principal
+** [X] Terminar la pagina principal
 Necesitamos que quede bien para reutilizar el código en las demás paginas.
-* Recursos útiles para enteder que pedo :b
+** [X] Contacto
+** [X] Registro
+** [X] Inicio de sesion
+** [ ] Paginas de productos
+** [ ] Carrito
+** [ ] Checkout
+* Recursos útiles para enteder que pez :b
 - https://git-scm.com/book/en/v2
   Para poder moverle a git
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured
