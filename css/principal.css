@@ -3,7 +3,7 @@
 main {
   display: flex;
   flex-flow: column;
-  background-image: url(../img/principal/bannerPrincipal.png);
+  background-image: url(../img/fondos/bannerPrincipal.png);
   background-size:cover;
   background-color: black;
   object-fit: contain;
