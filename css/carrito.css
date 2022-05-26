@@ -33,7 +33,7 @@ section{
     backdrop-filter: blur(10px);
     max-height: 70vh;
     gap: 1rem;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
 }
 
 .total{

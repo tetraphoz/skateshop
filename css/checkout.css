@@ -10,11 +10,15 @@ main {
     align-items: center;
 }
 
+body{
+    overflow: scroll;
+}
+
 section{
     padding: 3rem;
     margin: 7vh;
     backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
 }
 
@@ -23,18 +27,35 @@ form{
     flex-flow: column;
     align-items: center;
     width: 100%;
+    padding: 2rem 1rem;
 }
 
-form>*{
+section>*{
     font-family: 'Raleway';
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+}
+
+section h2{
+    font-size: 1.3rem;
+}
+
+form p{
+    font-size: 1.4rem;
+    align-self: flex-start;
+}
+
+p{
+    font-size: 1.2rem;
 }
 
 input
 {
-    margin: 2rem;
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    margin: 1rem;
     padding: 1rem;
+    width: 100%;
     display: block;
     background: rgba(0, 0, 0, 0.5);
     border: solid;
@@ -43,13 +64,10 @@ input
     color: white;
 }
 
-p{
+button {
     font-family: 'Raleway';
     font-weight: 1000;
     font-size: 2rem;
-}
-
-button {
     cursor: pointer;
     margin: 1rem;
     padding: 1rem;
@@ -59,6 +77,14 @@ button {
     border-radius: 1rem;
 }
 
-button:hover{
-    border-color: salmon;
+.confirmar>a:hover{
+    color: white;
+}
+
+.negritas, .negritas:visited {
+    color: salmon;
+}
+
+form a{
+    color: salmon;
 }
