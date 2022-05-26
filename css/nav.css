@@ -37,7 +37,10 @@ a:hover {
 
 .icon {
     height: 4vh;
-    padding: 0.3vh 0.6vh;
+}
+
+header>ul{
+    margin: 0.4rem 4rem;
 }
 
 li{
