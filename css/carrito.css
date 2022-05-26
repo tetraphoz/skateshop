@@ -29,8 +29,7 @@ section{
     padding: 3rem;
     border-radius: 8px;
     overflow: scroll;
-    background: white;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     max-height: 70vh;
     gap: 1rem;
@@ -38,13 +37,38 @@ section{
 }
 
 .total{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
+    display: flex;
+    flex-flow: column;
+    padding: 3rem;
+    border-radius: 8px;
+    /* max-height: 70vh; */
+    gap: 1rem;
+}
+
+.info{
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+}
+
+.cantidad{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+h1{
+    padding: 2rem;
+}
+.productos h2{
+    padding-left: 2rem;
 }
 
 .item{
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     background: white;
     border-radius: 8px;
     padding: 1rem;
@@ -61,17 +85,24 @@ section{
 }
 
 h1 {
-    font-size: 4rem;
-    padding: 3rem;
-    color: white;
-    text-shadow: black 10px 10px 10px;
+    font-size: 2rem;
+    /* padding: 3rem; */
+    /* color: white; */
+    /* text-shadow: black 10px 10px 10px; */
 }
 
-button{
+.confirmar{
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 2rem;
     border-radius: 8px;
-    padding: 0.5rem;
+    cursor: pointer;
+    background-color: salmon;
+    color: black;
+    border-radius: 1rem;
+}
+
+.confirmar a:hover{
+    color: white;
 }
 
 .eliminar{
@@ -81,7 +112,7 @@ button{
 }
 
 .incrementar{
-    background-color: lightgreen;
+    background-color: green;
     border-radius: 8px;
     color: white;
 }
@@ -90,6 +121,23 @@ button{
     background-color: grey;
     border-radius: 8px;
     color: white;
+}
+
+.botones button{
+    padding: 0.5rem;
+}
+
+.cupon{
+    display: flex;
+}
+
+input{
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 1rem;
+    height: 3rem;
+    border:solid;
+    border-radius: 8px;
 }
 
 p{
