@@ -7,8 +7,9 @@ Necesitamos que quede bien para reutilizar el código en las demás paginas.
 ** [X] Registro
 ** [X] Inicio de sesion
 ** [X] Paginas de productos
-** [ ] Carrito
-** [ ] Checkout
+** [X] Carrito
+** [X] Checkout
+** [ ] Grabar video
 * Recursos útiles para enteder que pez :b
 - https://git-scm.com/book/en/v2
   Para poder moverle a git
