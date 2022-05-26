@@ -1,0 +1,99 @@
+@import "nav.css";
+
+*{
+    font-family: 'Raleway';
+}
+
+main {
+    background-image: url("../img/fondos/cartas-detras.jpg");
+    background-size:cover;
+    background-color: black;
+    object-fit: contain;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    gap: 3rem;
+}
+
+.productos{
+    display: flex;
+    flex-flow: column;
+    padding: 3rem;
+    border-radius: 8px;
+    overflow: scroll;
+    background: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    max-height: 70vh;
+    gap: 1rem;
+    scroll-snap-type: y mandatory;
+}
+
+.total{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.item{
+    display: flex;
+    flex-flow: column;
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.item img {
+    border-radius: 8px;
+    object-fit: cover;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 3rem;
+    color: white;
+    text-shadow: black 10px 10px 10px;
+}
+
+button{
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.eliminar{
+    background-color: crimson;
+    border-radius: 8px;
+    color: white;
+}
+
+.incrementar{
+    background-color: lightgreen;
+    border-radius: 8px;
+    color: white;
+}
+
+.decrementar{
+    background-color: grey;
+    border-radius: 8px;
+    color: white;
+}
+
+p{
+    font-weight: 1500;
+    font-size: 1.8rem;
+    color: black;
+}
