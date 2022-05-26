@@ -6,7 +6,7 @@ Necesitamos que quede bien para reutilizar el código en las demás paginas.
 ** [X] Contacto
 ** [X] Registro
 ** [X] Inicio de sesion
-** [ ] Paginas de productos
+** [X] Paginas de productos
 ** [ ] Carrito
 ** [ ] Checkout
 * Recursos útiles para enteder que pez :b
